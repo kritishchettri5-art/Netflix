@@ -1,0 +1,211 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.sign-in {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 2px 10px 2px 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.35);
+    transition: all 0.5s ease;
+    margin-right: 120px;
+}
+
+.sign-in:hover {
+    background: #a30404;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    margin-top: 180px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.hero p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold;
+}
+
+.hero input {
+    margin-left: 150px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 18px 60px;
+}
+
+.hero button {
+    cursor: pointer;
+    padding: 20px 45px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 120px;
+}
+
+.hero button:hover {
+    background: #a30404;
+
+}
+
+.header-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.card div {
+    cursor: pointer;
+    display: flex;
+    display: inline-block;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.card div:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.rank-number {
+    font-size: 120px;
+    font-weight: 900;
+    color: #000;
+    -webkit-text-stroke: 4px #808080;
+    line-height: 1;
+    margin-right: -20px;
+    user-select: none;
+}
+
+.header-4 {
+    color: white;
+    font-weight: bold;
+}
+
+.extra-information {
+    display: inline-block;
+}
+
+.extra-information p,
+div {
+    color: white;
+    font-size: 18px;
+}
+
+.extra-information div {
+    box-sizing: border-box;
+    background-color: rgba(31, 20, 37);
+    padding-bottom: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24;
+    width: 550px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.extra-information {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 13px;
+}
+
+.extra-information p {
+    color: silver;
+}
+
+footer p {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold;
+    color: white;
+    text-align: center;
+}
+
+footer input {
+    margin-left: 350px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 18px 60px;
+}
+
+footer button {
+    cursor: pointer;
+    padding: 20px 45px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 120px;
+}
+
+footer a {
+    color: white;
+}
+
+.questions {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.end {
+    line-height: 0;
+}
